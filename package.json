@@ -4,15 +4,11 @@
   "main": "index.ts",
   "author": "joe",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^15.6.1",
-    "parcel-bundler": "^1.12.5"
-  },
   "scripts": {
-    "dev": "parcel ./src/index.ts",
-    "build": "parcel build ./src/index.ts"
+    "start": "node ./index.js"
   },
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
   }
 }
