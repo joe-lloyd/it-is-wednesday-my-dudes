@@ -16,6 +16,9 @@ client.on("message", msg => {
     if (dayIndex === 3) {
       msg.reply("it is wednesday my dudes https://youtu.be/du-TY1GUFGk");
     }
+    if (dayIndex === 5) {
+      msg.reply("it is friday my dudes https://youtu.be/ZUSQKvBfQPM");
+    }
   }
 })
 
